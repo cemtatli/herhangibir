@@ -1,6 +1,7 @@
 import { useState, ChangeEvent, useRef } from "react";
 import Icon from "./components/icon";
 import domtoimage from "dom-to-image";
+import Footer from "./components/footer";
 
 const defaultImage = "https://i.hizliresim.com/a4dyws6.png";
 
@@ -53,10 +54,10 @@ function App() {
   };
 
   return (
-    <main className="flex flex-col gap-4 items-center justify-center h-full w-full bg-gray-100">
-      <div className="max-w-[340px] w-full mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+    <main className="flex flex-col gap-4 items-center justify-center h-screen w-full bg-gray-100">
+      <div className="max-w-[350px] w-full mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
         <section ref={sectionRef}>
-          <div className="w-[340px] h-[340px]">
+          <div className="w-[350px] h-[350px]">
             <div className="relative pb-[100%]">
               {image ? (
                 <img
@@ -69,19 +70,19 @@ function App() {
               ) : null}
             </div>
           </div>
-          <div className="h-14 w-[340px] bg-browser-dark flex items-center p-2 relative">
+          <div className="h-14 w-[350px] bg-browser-dark flex items-center p-2 relative">
             <input
               type="text"
               placeholder="Metin giriniz."
               value={text}
               onChange={handleTextChange}
-              className="h-10 w-full text-center shrink-0 bg-browser-ui placeholder:text-white/50 outline-none rounded-lg px-10 text-sm text-white"
+              className="h-10 w-full text-center shrink-0 text-ellipsis bg-browser-ui placeholder:text-white/50 outline-none rounded-lg px-10 text-sm text-white"
             />
             <span className="absolute inset-y-0 left-0.5 flex items-center pl-4">
-              <Icon name="Aa" width={18} height={14} />
+              <Icon name="Aa" width={18} height={15} />
             </span>
             <span className="absolute inset-y-0 right-0.5 flex items-center pr-4">
-              <Icon name="Reload" height={18} width={14} />
+              <Icon name="Reload" height={18} width={15} />
             </span>
           </div>
         </section>
@@ -117,6 +118,7 @@ function App() {
       <span className="text-sm font-medium text-gray-700 max-w-[340px] text-center">
         Görsel temsilidir. İstediğiniz görseli yükleyerek veya url ile kullanabilirsiniz.
       </span>
+      <Footer />
     </main>
   );
 }
