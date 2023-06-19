@@ -1,6 +1,6 @@
 # Herhangi Bir Generator
 
-Bu proje, **Herhangi Bir Generator** adlı bir websitesi için geliştirilmiştir. Bu websitesi, son zamanlarda popüler olan herhangi bir adam gibi capsler üretmenizi sağlar.
+Bu proje, son zamanlarda popüler olan herhangi bir adam gibi capsler üretmenizi sağlar.
 
 ## Proje Hakkında
 
@@ -8,9 +8,9 @@ Bu proje, **Herhangi Bir Generator** adlı bir websitesi için geliştirilmişti
 
 ## Kullanım
 
-1. Websitesine giriş yapın: [Herhangi Bir Generator](https://herhangibir.vercel.app)
+1. Websitesine giriş yapın: [Website](https://herhangibir.vercel.app)
 2. Caps oluşturmak için metin kutusuna istediğiniz yazıyı girin.
-3. Caps oluştur düğmesine tıklayın.
+3. İstediğin görseli url yoluyla ya da galerinizden seçerek kullanın.
 4. Oluşturulan capsi indirin veya paylaşın.
 
 ## Özellikler
@@ -19,7 +19,6 @@ Bu proje, **Herhangi Bir Generator** adlı bir websitesi için geliştirilmişti
 - [x] Metin kutusuna girilen yazıyı caps şeklinde gösterir.
 - [x] Oluşturulan capsi indirebilme özelliği.
 - [] Oluşturulan capsi site üzerine paylaşabilme özelliği.
-  .
 
 ## Ekran Görüntüleri
 
