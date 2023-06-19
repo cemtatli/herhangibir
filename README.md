@@ -18,7 +18,6 @@ Bu proje, son zamanlarda popüler olan herhangi bir adam gibi capsler üretmeniz
 - [x] Basit ve kullanıcı dostu bir arayüz.
 - [x] Metin kutusuna girilen yazıyı caps şeklinde gösterir.
 - [x] Oluşturulan capsi indirebilme özelliği.
-- [] Oluşturulan capsi site üzerine paylaşabilme özelliği.
 
 ## Ekran Görüntüleri
 
