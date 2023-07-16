@@ -2,7 +2,7 @@ import Icon from "./icon";
 
 const Footer = () => {
   return (
-    <div className="text-sm flex md:flex-col items-center gap-4 absolute md:right-2 bottom-2 md:bottom-1/2">
+    <div className="text-sm hidden md:flex md:flex-col items-center gap-4 absolute md:right-2 md:bottom-1/2">
       <a
         href="https://www.twitter.com/vaycem"
         target="_blank"
